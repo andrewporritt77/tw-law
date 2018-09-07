@@ -1,0 +1,15 @@
+.tw-title {
+    height: 50px;
+    background-color: blue
+}
+
+.tw-contact-box {
+    height: 50px;
+    background-color: red
+}
+
+.flex-container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
