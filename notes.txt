@@ -1,0 +1,7 @@
+Ideas:
+
+Media Query for scale of Title Logo
+Hover Down Contact
+(click down contact on IOS)
+Skills in Section
+About / qualifications on footer
