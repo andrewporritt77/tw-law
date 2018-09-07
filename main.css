@@ -1,11 +1,16 @@
 .tw-title {
-    height: 50px;
-    background-color: blue
+    height: 100px;
+    background-color:black;
 }
 
 .tw-contact-box {
-    height: 50px;
-    background-color: red
+    height: 100px;
+    background-color:white;
+}
+
+.tw-logo {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .flex-container{
@@ -13,3 +18,4 @@
     flex-direction:row;
     flex-wrap:wrap;
 }
+
