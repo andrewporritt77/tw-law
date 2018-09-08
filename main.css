@@ -1,11 +1,23 @@
+
 .tw-title {
     height: 100px;
     background-color:black;
 }
 
+
 .tw-contact-box {
     height: 100px;
-    background-color:white;
+    background-color:grey;
+}
+
+@media only screen and (min-width: 900px) {
+    .tw-title {
+        height: 180px;
+    }
+    .tw-contact-box {
+        height: 180px;
+    }
+    
 }
 
 .tw-logo {
@@ -19,3 +31,7 @@
     flex-wrap:wrap;
 }
 
+.tw-statement {
+    font-family: 'pinyon script', cursive ;
+    font-size: 1.2em;
+}
