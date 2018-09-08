@@ -31,6 +31,12 @@
     flex-wrap:wrap;
 }
 
+.tw-contact-drop-down {
+    display:none;
+    height: 400px;
+    background-color: white;
+}
+
 .tw-statement {
     font-family: 'pinyon script', cursive ;
     font-size: 1.2em;
