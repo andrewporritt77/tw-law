@@ -7,7 +7,9 @@
 
 .tw-contact-box {
     height: 100px;
-    background-color:grey;
+    background-color:#999a9b;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1em;
 }
 
 @media only screen and (min-width: 900px) {
@@ -33,15 +35,41 @@
 
 .tw-contact-drop-down {
     display:none;
-    height: 400px;
-    background-color: white;
+    height: 110px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+    background-color: #cccccc;
+}
+
+.tw-skill-header {
+    margin-left: 12%;
+    font-family: 'Cabin', sans-serif;
 }
 
 .tw-skills {
+    padding: 4px;
+    border: 1px;
+    margin: 5px;
+    border-color:black;
+    border-radius: 4px;
     font-family: 'Cabin', sans-serif;
 }
 
 .tw-statement {
     font-family: 'pinyon script', cursive ;
     font-size: 1.2em;
+}
+
+.tw-button {
+    background-color: grey;
+    border-color: white;
+    border-radius: 3px;
+    color: black;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
