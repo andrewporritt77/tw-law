@@ -5,3 +5,7 @@ Hover Down Contact
 (click down contact on IOS)
 Skills in Section
 About / qualifications on footer
+
+add news area (right third)
+add pop up e-mail (link)
+FA dots to add interest to skills section
