@@ -1,60 +1,83 @@
 /* ---------- General ------------*/
-
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Pinyon+Script');
 /* ---------- Header and Title ---*/
 .tw-title {
     height: 100px;
     background-color:black;
 }
 
-.tw-contact-box {
+.tw-box {
     height: 100px;
+    padding-top: 20px;
+    padding-left: 20px;
     background-color:#999a9b;
-    font-family: 'Cabin', sans-serif;
-    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16pt;
+    font-weight: 100;
+    z-index: +1
 }
+
+.tw-contact-drop-down {
+    display:none;    
+    height: 100%;
+    border: 1px;
+    padding: 20px 20px 20px 20px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 4px;
+    background-color: #cccccc;
+    font-family: 'Raleway', sans-serif;
+    font-size: 10pt;
+    font-weight: 100;
+}
+
+.tw-contact-icons {
+    color: black;
+    padding-left: 8px;
+}
+.tw-contact-icons:hover {
+    color: white;
+} 
 
 @media only screen and (min-width: 900px) {
     .tw-title {
         height: 180px;
     }
-    .tw-contact-box {
+    .tw-box {
         height: 180px;
+        font-size:22pt;
     }
-    
+    .tw-contact-drop-down {
+        font-size: 14pt;
+    }
 }
+
+
 
 .tw-logo {
     max-height: 100%;
     max-width: 100%;
 }
 
-.tw-contact-drop-down {
-    display:none;
-    height: 110px;
-    border: 1px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 4px;
-    background-color: #cccccc;
-}
+
 /*--------- Skills Section ----*/
-.tw-skill-header {
-    
-    font-family: 'Cabin', sans-serif;
-}
 
 .tw-skills {
-    padding: 10px;
-    font-family: 'Cabin', sans-serif;
+    padding: 6% 8% 12% 8%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
 /*---------- News Feed -------*/
 .tw-news-feed {
     border: 1px;
+    padding: 40px 60px 60px 60px;
     border-color: black;
     border-radius: 3px;
     border-style: solid;
-    height:120px;
+    height:100%;
+    margin-bottom: 80px;
 }
 
 /*----- Footer Section ---*/
